@@ -11,7 +11,7 @@ source:
   - url: https://github.com/xberg-io/tree-sitter-language-pack/archive/refs/tags/v${{ version }}.tar.gz
     sha256: 8442dac39608e13782287bc8f26e884dae073ce70f5ef1f01b26e0be65605c34
   - url: https://github.com/xberg-io/tree-sitter-language-pack/releases/download/v${{ version }}/parser-sources-${{ version }}.tar.zst
-    sha256: b574b21e014917b0a7c3333fa4a8b707bbd3fc4bb053d45320030b1cfb3e8db4
+    sha256: aae10603aaf62e771fc797a99680c63895e2b6cc1c5ee1267964840c23f5d19b
     target_directory: _parser_sources
 
 build:
